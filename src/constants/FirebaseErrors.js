@@ -1,0 +1,22 @@
+export const  FirebaseErrors={
+    //-- Authentication Errors
+      networkError:'No internet connection',
+      weakPassword : "Weak Password! Please provide a stronger password",
+      incorrectPassword : "Incorrect Password",
+      invalidEmail : "Email is not valid",
+      emailAlreadyExists : "An account with email already exists",
+      operationNotSupport : "Operation is not allowed. Please contact support",
+      userDisabled : "This user has been disabled. Please contact support for help",
+      userNotVerified : "User is not verified",
+      userDoesNotExist : "User with this email does not exist.",
+      accountWithDifferentCredentials : "Account exists with different credentials",
+      invalidCredentials : "Invalid Credentials",
+      invalidVerificationCode : "Invalid Verification Code",
+      invalidVerificationId : "Invalid Verification ID",
+      tooManyRequests : "We have blocked all requests from this device due to too many requests. Try again later",
+      acceptTerms : "Privacy Policy and Terms of use are not accepted. Agree to our Privacy Policy and Terms of use to Continue",
+      invalidOtp : "Invalid OTP! Submit the right OTP sent on ur Phone Number to continue",
+      numberNotVerified : "Phone Number is not verified",
+      usernameTaken : "This username is already taken. Please try another username",
+      phoneNoInUse : "Another user is using this Phone Number. Please try another Phone Number",
+}
